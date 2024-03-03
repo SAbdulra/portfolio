@@ -12,20 +12,20 @@
 
 
 // Core
-@import "vendors/bootstrap-4.3.1/functions";
+@import "vendors/bootstrap-4.3.1/functions.scss";
 
 // custom variables
-@import "abstracts/variables";
+@import "abstracts/variables.scss";
 // bootstrap variables
-@import "vendors/bootstrap-4.3.1/variables";
+@import "vendors/bootstrap-4.3.1/variables.scss";
 
-@import "vendors/bootstrap-4.3.1/mixins";
-@import "abstracts/mixins";
+@import "vendors/bootstrap-4.3.1/mixins.scss";
+@import "abstracts/mixins.scss";
 
 
 // Bootstrap 4.3.1
-@import "vendors/bootstrap-4.3.1/root";
-@import "vendors/bootstrap-4.3.1/reboot";
+@import "vendors/bootstrap-4.3.1/root.scss";
+@import "vendors/bootstrap-4.3.1/reboot.scss";
 @import "vendors/bootstrap-4.3.1/type";
 @import "vendors/bootstrap-4.3.1/images";
 @import "vendors/bootstrap-4.3.1/code";
