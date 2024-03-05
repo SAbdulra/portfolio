@@ -799,13 +799,13 @@
                                     <option>Mr.</option>
                                     <option>Ms.</option>
                                 </select>
-                                <input  class="form-control" type="text" placeholder="Full Name *" class="contact-inputs" required>
+                                <input  class="form-control" type="text" id="name" placeholder="Full Name *" class="contact-inputs" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="mobile" placeholder="Number *" class="contact-inputs" required>
+                                <input class="form-control" type="mobile" id="phone" placeholder="Number *" class="contact-inputs" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" class="contact-inputs" required>
+                                <input class="form-control" type="email" id="email" placeholder="Email *" class="contact-inputs" required>
                             </div>
                             <select name="Continent">
                                 <option>Africa</option>
@@ -817,7 +817,7 @@
                                 <option>South America</option>
                             </select>
                             <div class="form-group">
-                                <textarea  class="form-control" id=" " placeholder="Message *" rows="5" required></textarea>
+                                <textarea  class="form-control" id="message" placeholder="Message *" rows="5" required></textarea>
                             </div>
                             <div class="form-group ">
                                 <button type="submit" class="form-control btn btn-primary" onClick="window.location.href='Thankyou.html';">Send Message</a>
@@ -827,10 +827,10 @@
 				<script>
 			 		function sendmail(){
 						Email.send({
-							Host : "smtp.elasticemail.com",
-							Username : "admin@syedar9160.com",
-							Password : "56322FD1FB62E5F45BC8F3D9C897EC3EEC20",
-							To : "admin@syedar9160.com",
+							Host : "smtp.gmail.com",
+							Username : "irisadold@gmail.com",
+							Password : "rishisaDs@123",
+							To : "irisadold@gmail.com",
 							From : document.getElementById("email").value,
 							Subject : "New Contact Form Submitted",
 							Body : "Name: " + document.getElementById("name").value 
@@ -888,7 +888,7 @@
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created professionally With <i class="ti-heart text-danger"></i> By <a href="https://syedar9160.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">Syed_AbdulRahaman</span></a> 
+                &copy; <script>document.write(new Date().getFullYear())</script> Created professionally With <i class="ti-heart text-danger"></i> By <a href="https://sabdulra.github.io/portfolio" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">Syed_AbdulRahaman</span></a> 
             </p>
         </div>
     </footer>
