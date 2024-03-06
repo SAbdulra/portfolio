@@ -794,7 +794,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Send a message</h4>
-                        <form action="https://formsubmit.co/irisadold@gmail.com" onsubmit= method="POST">
+                        <form action="https://formsubmit.co/irisadold@gmail.com" onsubmit="sendmail(); reset(); return.false;" method="POST">
                             <div class="form-group">
                                 <select name="#">
                                     <option>Mr.</option>
@@ -821,13 +821,13 @@
                                 <textarea  class="form-control" name="message" placeholder="Message *" rows="5" required></textarea>
                             </div>
                             <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary" onsubmit="sendmail(); reset(); return.false;">Send Message</button>
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
                             </div>
 				<input type="hidden" name="_subject" value="Got New Form submission!">
 				<input type="hidden" name="_captcha" value="false">
 				<input type="text" name="_honey" style="display:none">
-				<input type="hidden" name="_template" value="table">
-				<input type="hidden" name="_next" value="https://sabdulra.github.io/portfolio/Thankyou.html">
+				<input type="hidden" name="_template" value="basic">
+				<input type="hidden" name="_url" value="https://sabdulra.github.io/portfolio/Thankyou.html">
 				
 			</form>
 			<!-- <script src="assets/js/smtp.js"></script> -->
