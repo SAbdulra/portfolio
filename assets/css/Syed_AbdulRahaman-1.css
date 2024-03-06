@@ -268,10 +268,10 @@ bottom: 1.5em;
 .imgbox img {
     position: relative;
     height: auto; /* Change height to auto */
-    width: 100%; /* Set width to 100% */
+    width: 120%; /* Set width to 100% */
     top: 50px;
     right: 50px;
-    animation: animateUser 4s linear infinite;
+    animation: animateUser 5s linear infinite;
 }
 
 @keyframes animateUser {
@@ -283,14 +283,13 @@ bottom: 1.5em;
 
 .imgbox #logo{
     position: absolute;
-    top: 80%;
-    left: 100%;
-    transform: translate(-80%, -80%) rotate(-60deg);
-    width: 200%;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    width: 120%;
     filter: saturate(200%);
-    animation: animate 4s linear infinite;
+    animation: animate 5s linear infinite;
 }
-
 @keyframes animate {
     50%{
         top: 49%;
