@@ -800,15 +800,15 @@
                                     <option>Mr.</option>
                                     <option>Ms.</option>
                                 </select>
-                                <input  class="form-control" type="text" id="name" placeholder="Full Name *" class="contact-inputs" required>
+                                <input  class="form-control" name="text" type="name" placeholder="Full Name *" class="contact-inputs" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="mobile" id="phone" placeholder="Number *" class="contact-inputs" required>
+                                <input class="form-control" name="mobile" type="phone" placeholder="Mobile Number *" class="contact-inputs" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="email" id="email" placeholder="Email *" class="contact-inputs" required>
+                                <input class="form-control" name="email" type="email" placeholder="Email Address *" class="contact-inputs" required>
                             </div>
-                            <select name="Continent">
+                            <select id="Continent">
                                 <option>Africa</option>
                                 <option>Antarctica</option>
                                 <option>Asia</option>
@@ -818,11 +818,17 @@
                                 <option>South America</option>
                             </select>
                             <div class="form-group">
-                                <textarea  class="form-control" id="message" placeholder="Message *" rows="5" required></textarea>
+                                <textarea  class="form-control" name="message" placeholder="Message *" rows="5" required></textarea>
                             </div>
                             <div class="form-group ">
                                 <button type="submit" class="form-control btn btn-primary" onsubmit="sendmail(); reset(); return.false;">Send Message</button>
                             </div>
+				<input type="hidden" name="_subject" value="Got New Form submission!">
+				<input type="hidden" name="_captcha" value="false">
+				<input type="text" name="_honey" style="display:none">
+				<input type="hidden" name="_template" value="table">
+				<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+				
                         </form>
 			<!-- <script src="assets/js/smtp.js"></script> -->
 				<!-- <script>
