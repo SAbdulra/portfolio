@@ -281,12 +281,12 @@ bottom: 1.5em;
     } 
 }
 
-.imgbox #splash{
+.imgbox #logo{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-35deg);
-    width: 160%;
+    top: 80%;
+    left: 100%;
+    transform: translate(-80%, -80%) rotate(-60deg);
+    width: 200%;
     filter: saturate(200%);
     animation: animate 4s linear infinite;
 }
@@ -376,12 +376,12 @@ bottom: 1.5em;
     }
   
     .imgbox img {
-      width: 100%;
+      width: 50%;
       top: 0;
       right: 0;
     }
   
-    .imgbox #splash {
+    .imgbox #logo {
         display: none;
     }
   }
