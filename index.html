@@ -794,7 +794,7 @@
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Send a message</h4>
-                        <form onsubmit="sendmail(); reset(); return.false;" method="POST">
+                        <form action="https://formsubmit.co/irisadold@gmail.com" method="POST">
                             <div class="form-group">
                                 <select>
                                     <option>Mr.</option>
@@ -821,11 +821,11 @@
                                 <textarea  class="form-control" id="message" placeholder="Message *" rows="5" required></textarea>
                             </div>
                             <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
+                                <button type="submit" class="form-control btn btn-primary" onsubmit="sendmail(); reset(); return.false;">Send Message</button>
                             </div>
                         </form>
 			<!-- <script src="assets/js/smtp.js"></script> -->
-				<script>
+				<!-- <script>
 			 		function sendmail(){
 						Email.send({
 							Host : "smtp.gmail.com",
@@ -842,7 +842,7 @@
 							message => alert("Message Sent Successfully")
 							);
 						}
-				</script>
+				</script> -->
 					
                     </div>
                 </div>
